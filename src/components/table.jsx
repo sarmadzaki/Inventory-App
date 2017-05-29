@@ -14,7 +14,7 @@ class Table extends Component {
                </div>
                <div className="panel-body">
                   <div className="btn-group" >
-                     <Link to="/addItem" className="btn btn-primary">Inventory In</Link>
+                     <Link to="/addInventory" className="btn btn-primary">Inventory In</Link>
                      <Link className="btn btn-primary">Inventory Out</Link>
                   </div>
                   <BootstrapTable search={true} data={this.props.data} pagination striped hover>

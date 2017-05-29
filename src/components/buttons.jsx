@@ -6,7 +6,7 @@ export class Remove extends Component {
     removeItem(e) {
         const id = this.props.data
         console.log(id)
-        this.props.data.splice(1, 3);
+        this.props.data.splice(1, 1);
     }
     render() {
         return (
